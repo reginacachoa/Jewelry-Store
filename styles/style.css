@@ -140,9 +140,9 @@ body {
 }
 
 @media (min-width: 768px) {
-.header__logo {
-    margin: none;
-}    
+    .header__logo {
+        margin: none;
+    }
 }
 
 .header__icon {
@@ -155,8 +155,8 @@ body {
 
 .header nav ul {
     list-style: none;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
@@ -923,6 +923,144 @@ body {
     font-size: 1.5rem;
     transform: scale(.95);
 }
+
+/* CONTACT styles  CONTACT styles  CONTACT styles  CONTACT styles */
+
+.contact-bg {
+    background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+}
+
+
+@media (min-width: 768px) {
+    .contact-bg {
+        background-color: black;
+        position: absolute;
+        top: 24.5rem;
+        left: 0;
+        width: 100%;
+        height: 55vh;
+        z-index: -1;
+    }
+}
+
+.contact {
+    background-color: none;
+    color: white;
+    display: grid;
+    margin: 1rem auto;
+}
+
+@media (min-width: 768px) {
+    .contact {
+        grid-template-columns: 50% 50%;
+        margin: 8rem auto;
+    }
+}
+
+.contact__info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    background: transparent;
+    color: white;
+    padding: 5rem;
+}
+
+.contact__info-item {
+    margin-bottom: 2rem;
+}
+
+
+.contact__info-data {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact__info-data-svg {
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.contact__info-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.contact__info-description {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin: 0;
+    overflow-wrap: break-word;
+}
+
+
+.contact__title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.contact__form {
+    max-width: 40rem;
+    height: auto;
+    width: 100%;
+    padding: 3rem 5rem;
+    background-color: #fff;
+    color: black;
+    border: .1rem solid black;
+}
+
+.contact__field-input {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    border: none;
+    border-bottom: .2rem solid black;
+    font-size: 1.5rem;
+    font-weight: 300;
+    outline: 0;
+}
+
+.contact__field-input::placeholder {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.contact__field-text {
+    height: 12rem;
+}
+
+
+.contact__button {
+    background-color: white;
+    border: .2rem solid black;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    padding: 1.5rem 3rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.contact__button:hover {
+    background-color: black;
+    border: .2rem solid black;
+    color: white;
+    font-weight: 500;
+}
+
 
 
 /* FOOTER styles  FOOTER styles  FOOTER styles  FOOTER styles*/
