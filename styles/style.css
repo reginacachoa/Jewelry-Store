@@ -195,23 +195,53 @@ body {
     background-position: center bottom;
 }
 
-.hero-home-colle {
+
+
+.webp .hero-home-colle {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url('../Index-Home_Images/Hero_Home_Collection.webp');
+}
+
+.no-webp .hero-home-colle {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url('../Index-Home_Images/Hero_Home_Collection.jpg');
 }
 
-.hero-home-gifts {
+
+
+.webp .hero-home-gifts {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../Index-Home_Images/Hero_Home_Gifts.webp');
+}
+
+.no-webp .hero-home-gifts {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../Index-Home_Images/Hero_Home_Gifts.jpg');
 }
 
-.hero-home-customization {
+
+
+.webp .hero-home-customization {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../Index-Home_Images/Hero_Home_Customization.webp');
+}
+
+.no-webp .hero-home-customization {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../Index-Home_Images/Hero_Home_Customization.jpg');
 }
 
-.hero-arrivals {
+
+
+.webp .hero-arrivals {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../Arrivals_Images/Hero_Arrivals.webp');
+}
+
+.no-webp .hero-arrivals {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../Arrivals_Images/Hero_Arrivals.jpg');
 }
 
-.hero-aboutus {
+
+
+.webp .hero-aboutus {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../About_Images/Hero_Aboutus.webp');
+}
+
+.no-webp .hero-aboutus {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../About_Images/Hero_Aboutus.jpg');
 }
 
@@ -452,17 +482,40 @@ body {
     background-position: center center;
 }
 
-.showcase__photo--knee {
+
+
+
+.webp .showcase__photo--knee {
+    background-image: url(../Arrivals_Images/Photo1_Knee.webp);
+}
+
+.no-webp .showcase__photo--knee {
     background-image: url(../Arrivals_Images/Photo1_Knee.jpg);
+}
+
+.showcase__photo--knee {
     grid-row: 2 / 4;
     grid-column: 2 / 3;
 }
 
-.showcase__photo--cheek {
+
+
+
+.webp .showcase__photo--cheek {
+    background-image: url(../Arrivals_Images/Photo2_Cheek.webp);
+}
+
+.no-webp .showcase__photo--cheek {
     background-image: url(../Arrivals_Images/Photo2_Cheek.jpg);
+}
+
+.showcase__photo--cheek {
     grid-row: 6 / 7;
     grid-column: 1 / 3;
 }
+
+
+
 
 .showcase__cta {
     padding: 2rem;
@@ -671,13 +724,32 @@ body {
     background-position: center center;
 }
 
-.aboutus__image--main {
+
+
+
+.webp .aboutus__image--main {
+    background-image: url(../About_Images/Photo_0_Aboutus.webp);
+}
+
+.no-webp .aboutus__image--main {
     background-image: url(../About_Images/Photo_0_Aboutus.jpg);
+}
+
+.aboutus__image--main {
     grid-row: 2/ 3;
 }
 
-.aboutus__image--rings {
+
+
+.webp .aboutus__image--rings {
+    background-image: url(../About_Images/Photo_0_Aboutus_Rings.webp);
+}
+
+.no-webp .aboutus__image--rings {
     background-image: url(../About_Images/Photo_0_Aboutus_Rings.jpg);
+}
+
+.aboutus__image--rings {
     grid-row: 4 / 5;
 }
 
